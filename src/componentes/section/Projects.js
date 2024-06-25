@@ -20,8 +20,8 @@ function Projects(){
                 title={'PORTIFÓLIO'} 
                 tecno={'HTML, CSS, JavaScript, REACT'} 
                 descrition={'Este projeto tem como finalidade me apresentar e mostrar minha trajetória e conhecimento no mundo dev'}
-                repo={'https://github.com/c4rm4XXV'}
-                site={""}
+                repo={'https://github.com/c4rm4XXV/portf-lio'}
+                site={"portfolio-29ubkdo39-miguels-projects-01b90a5f.vercel.app"}
             />
             <ButtonB link={'https://github.com/c4rm4XXV'}text={'Acesse meu repositório'}/>
         </div>
