@@ -1,0 +1,20 @@
+.footer{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;    
+    justify-content: center;
+    margin: 25px;
+    padding: 0 !important;
+}
+.footer li{
+    margin-left: 15px;
+}
+.footer a{
+    color: aliceblue ;
+}
+.footer p{
+    margin: 25px;
+}

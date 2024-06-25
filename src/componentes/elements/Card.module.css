@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    margin: 15px;     
+    justify-content: center ;
+}
+
+.card img{
+    width: 500px;
+    border-radius: 10px ;   
+
+}
+
+.card img:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.card section{
+    background: rgb(1, 9, 28, 0.75);
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgb(0,0,0.25,0.50));
+    padding: 20px;
+    width: 500px;
+    margin-left: 25px;
+}
+
+.card h3{
+    font-size: 25px;
+}
+
+

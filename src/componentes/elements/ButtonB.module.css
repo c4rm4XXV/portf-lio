@@ -1,0 +1,19 @@
+.bnt{
+    background:transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+.bnt:hover{
+    color: aliceblue;
+    background-color: #010B28;
+    transition-duration: 0.3s;
+    transform: translateY(-7px);
+
+}
