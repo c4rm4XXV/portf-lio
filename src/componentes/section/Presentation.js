@@ -10,9 +10,9 @@ function Presentation(){
             <h1>Olá, eu sou Miguel Ângelo</h1>
             <p>
                 Sou um apaixonado por tecnologia e soluções inovadoras.<br/>
-                Como Product Manager, eu tenho o compromisso de resolver problemas<br/>
-                complexos e trazer resultados excepcionais para os negócios.<br/>
-                Meus projetos já geraram milhões de reais em receita anual<br/>
+                Como Desenvolvedor Full-Stack, eu tenho o compromisso de resolver<br/> 
+                problemas complexos e ampliar meu leque de conhecimentos e projetos.<br/>
+                Meus projetos já geraram horas de empeinho e dedicação<br/>
                 estou sempre em busca de novos desafios para superar.
             </p>            
             <ButtonA link='https://github.com/c4rm4XXV' text='Conecte-se comigo'/>
