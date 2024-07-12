@@ -1,18 +1,20 @@
 import style from './Presentation.module.css'
 import ButtonA from '../elements/ButtonA'
 import { useState, useEffect } from 'react'
+
+
 function Presentation() {
     const [text, setText] = useState('')
-    const toRotate = ['Miguel Ângelo', "Desenvolvedor Full-Stack", "Aux. de T.I"]
+    const toRotate = ['Miguel Ângelo', "Desenvolvedor Full-Stack",'Auxiliar de T.I']
     const [loop, setLoop] = useState(0)
     const [isDeleting, setIsDeleting] = useState(false)
-    const period = 2000;
-    const [delta, setDelta] = useState(2000)
+    const period =100;
+    const [delta, setDelta] = useState(100)
 
     useEffect(() => {
         let ticker = setInterval(() => {
             toType()
-        })
+        },delta)
         return () => { clearInterval(ticker) }
     }, [text])
 
